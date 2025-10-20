@@ -1,0 +1,20 @@
+{
+    "name": "dsw/generadorqr",
+    "description": "Generador de código QR",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Dsw\\Generadorqr\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrés Crespo",
+            "email": "acrerosj@canariaseducacion.es"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "endroid/qr-code": "^6.0"
+    }
+}
